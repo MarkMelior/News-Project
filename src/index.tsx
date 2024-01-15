@@ -1,9 +1,4 @@
-import './index.scss'
+import { render } from 'react-dom'
+import App from './App'
 
-export default function index() {
-	return (
-		<>
-			<div>index</div>
-		</>
-	)
-}
+render(<App />, document.getElementById('root'))
