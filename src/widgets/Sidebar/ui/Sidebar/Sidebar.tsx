@@ -4,6 +4,7 @@ import { classNames } from 'shared/lib/classNames/classNames'
 import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher'
 import { LangSwitcher } from 'widgets/LangSwitcher/LangSwitcher'
 import { useTranslation } from 'react-i18next'
+import { Button } from 'shared/ui/Button/Button'
 
 interface SidebarProps {
 	className?: string
@@ -30,7 +31,7 @@ export const Sidebar: FC<SidebarProps> = ({
 			])}
 			{...otherProps}
 		>
-			<button onClick={onToggle}>{t('Переключить')}</button>
+			<Button onClick={onToggle}>{t('Переключить')}</Button>
 			{children}
 			<div className={classNames(cls.swithers, {}, [])}>
 				<ThemeSwitcher />
