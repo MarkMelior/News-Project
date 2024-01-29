@@ -1,5 +1,6 @@
 // import style from './MainPage.module.scss'
 
+import { BugButton } from 'app/providers/ErrorBoundary/ui/BugButton'
 import { useTranslation } from 'react-i18next'
 
 export default function MainPage() {
@@ -7,6 +8,7 @@ export default function MainPage() {
 
 	return (
 		<>
+			<BugButton></BugButton>
 			<div>{t('Главная страница')}</div>
 		</>
 	)
