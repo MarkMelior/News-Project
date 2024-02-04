@@ -1,4 +1,4 @@
-import { Theme, ThemeProvider } from 'app/providers/ThemeProvider'
+import { Theme, ThemeProvider } from 'app/providers/ThemeProvider';
 
 export const ThemeDecorator =
 	(theme: Theme) => (StoryComponent: React.ComponentType) =>
@@ -8,4 +8,4 @@ export const ThemeDecorator =
 					<StoryComponent />
 				</div>
 			</ThemeProvider>
-		)
+		);

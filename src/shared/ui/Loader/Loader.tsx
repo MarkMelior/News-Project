@@ -1,16 +1,11 @@
-import { FC } from 'react'
-import cls from './Loader.module.scss'
-import { classNames } from 'shared/lib/classNames/classNames'
+import { FC } from 'react';
+import { classNames } from 'shared/lib/classNames/classNames';
+import cls from './Loader.module.scss';
 
 interface LoaderProps {
-	className?: string
+	className?: string;
 }
 
-export const Loader: FC<LoaderProps> = ({ className, ...otherProps }) => {
-	return (
-		<span
-			className={classNames(cls.loader, {}, [className])}
-			{...otherProps}
-		></span>
-	)
-}
+export const Loader: FC<LoaderProps> = ({ className, ...otherProps }) => (
+	<span className={classNames(cls.loader, {}, [className])} {...otherProps} />
+);
