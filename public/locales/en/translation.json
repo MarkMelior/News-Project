@@ -1,10 +1,12 @@
 {
-	"Страница не найдена": "Page not found",
-	"Произошла непредвиденная ошибка": "An unexpected error occurred",
-	"Обновить страницу": "Refresh the page",
-	"Войти": "Login",
-	"О сайте": "About us",
-	"Главная": "Home",
-	"Короткий язык": "En",
-	"Язык": "English"
+  "Страница не найдена": "Page not found",
+  "Произошла непредвиденная ошибка": "An unexpected error occurred",
+  "Обновить страницу": "Refresh the page",
+  "Войти": "Login",
+  "О сайте": "About us",
+  "Главная": "Home",
+  "Короткий язык": "En",
+  "Язык": "English",
+  "increment": "increment",
+  "decrement": "decrement"
 }

@@ -50,6 +50,7 @@ module.exports = {
 		'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
 		'comma-dangle': ['error', 'always-multiline'],
 		'jsx-quotes': 'off',
+		'no-param-reassign': 'off',
 	},
 	globals: {
 		__IS_DEV__: true,

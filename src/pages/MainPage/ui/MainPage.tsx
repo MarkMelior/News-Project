@@ -1,6 +1,7 @@
 // import style from './MainPage.module.scss'
 
 import { BugButton } from 'app/providers/ErrorBoundary/ui/BugButton';
+import { Counter } from 'entities/Counter';
 import { useTranslation } from 'react-i18next';
 
 export default function MainPage() {
@@ -10,6 +11,7 @@ export default function MainPage() {
 		<>
 			<BugButton />
 			<div>{t('Главная страница')}</div>
+			<Counter />
 		</>
 	);
 }
