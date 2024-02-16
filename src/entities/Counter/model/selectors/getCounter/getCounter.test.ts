@@ -7,6 +7,7 @@ describe('getCounter', () => {
 			counter: {
 				value: 10,
 			},
+			user: undefined,
 		};
 		expect(getCounter(state as StateSchema)).toEqual({ value: 10 });
 	});

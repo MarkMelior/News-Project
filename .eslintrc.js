@@ -51,6 +51,8 @@ module.exports = {
 		'comma-dangle': ['error', 'always-multiline'],
 		'jsx-quotes': 'off',
 		'no-param-reassign': 'off',
+		'react/prop-types': 'off',
+		'arrow-body-style': 'off',
 	},
 	globals: {
 		__IS_DEV__: true,
